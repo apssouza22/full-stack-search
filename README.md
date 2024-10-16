@@ -88,7 +88,27 @@ For larger or more time-intensive changes, you're welcome to outline your ideas 
 
 ### Write-up
 
-<!-- Write-up/conclusion section -->
+I have focus on the code structure and some of the functionalities. I avoided to bring new dependencies and technologies to the project. I also skipped the tests, although I find it very important to have them in a real project.
+
+In the Backend I tried to follow the best practices and few programming principles, especially regarding the separation of concerns, the single responsibility principle and structuring the code by domain.  
+In the Frontend I tried to follow the React best practices separating the components, pages, layouts and hooks.
+
+From the performance perspective: 
+- I have used the MongoDB indexes to improve the search performance. 
+- I have also used the `limit` to avoid loading all the data at once.
+- I have added cache to the search results to avoid unnecessary requests to the database.
+- I have avoided calls on evey key press, instead I have used a debounce function to call the search after the user stops typing.
+
+Things that could be improved:
+- Better accessibility for the search navigation
+- Better error handling
+- Better loading feedback
+- Better logging
+- Better state management in the frontend
+- Better cache management(Redis, frontend cache, TTL, etc)
+- Better search algorithm(Elastic search, Semantic search, etc)
+- Tests
+- 
 
 _When all the behaviour is implemented, feel free to add some observations or conclusions you like to share in the section_
 
