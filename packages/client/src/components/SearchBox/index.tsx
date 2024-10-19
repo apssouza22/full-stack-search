@@ -67,7 +67,7 @@ export function SearchBox() {
                     onChange={handleInputChange}
                 />
                 {showClearBtn && (
-                    <span className="left-pan" onClick={() => resetInput()} role="button">
+                    <span className="left-pan" onClick={resetInput} role="button">
                         <i className="fa fa-close"></i>
                     </span>
                 )}

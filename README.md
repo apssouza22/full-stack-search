@@ -88,7 +88,7 @@ For larger or more time-intensive changes, you're welcome to outline your ideas 
 
 ### Write-up
 
-I have focus on the code structure and some of the functionalities. I avoided to bring new dependencies and technologies to the project. I also skipped the tests, although I find it very important to have them in a real project.
+I have focus on the code structure and some of the functionalities. I avoided to bring new dependencies and technologies to the project. I also skipped the tests, I only added integration tests use cases.
 
 In the Backend I tried to follow the best practices and few programming principles, especially regarding the separation of concerns, the single responsibility principle and structuring the code by domain.  
 In the Frontend I tried to follow the React best practices separating the components, pages, layouts and hooks.
